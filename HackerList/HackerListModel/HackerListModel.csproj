@@ -49,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatabaseEntities.cs" />
+    <Compile Include="List.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ListEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

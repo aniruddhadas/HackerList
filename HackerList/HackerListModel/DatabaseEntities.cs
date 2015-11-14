@@ -21,6 +21,8 @@
             this.Database.CompatibleWithModel(throwIfNoMetadata: false);
         }
 
+        public DbSet<List> Lists { get; set; }
+
         public DbSet<ListEntry> ListEntries { get; set; }
     }
 }
