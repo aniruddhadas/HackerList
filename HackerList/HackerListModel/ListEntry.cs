@@ -13,5 +13,7 @@
 
         [MaxLength(256)]
         public string Entry { get; set; }
+        
+        public bool IsSelected { get; set; }
     }
 }
